@@ -1,0 +1,74 @@
+﻿<html>
+ <head>
+  <title> BP </title>
+  <meta charset="utf-8">
+ </head>
+ <body bgcolor="red" text="white">
+    <font size="6">
+	<br><br>
+    <center><u> Φόρμα υπολογισμού μισθοδοσίας</u></center>
+	<br><br>
+	</font>
+	<font size="5">
+	<form action="pliroteo.php" method="post" >
+	 Ονοματεπώνυμο <input type="text" name="onoma" size="35" maxlength="35">
+	 <br><br>
+	 ΑΦΜ <input type="text" name="afm" size="35" maxlength="9">
+	 <br><br>
+     Διεύθυνση <input type="text" name="dief" size="40" maxlength="40">
+	 <br><br>
+	 Αριθμ.τεκνων <input type="text" name="tekna" size="2">
+	 <br><br>
+	 Αρ.Μητρωου <input type="password" name="kodikos" size="4" maxlength="4">
+	 <br><br>
+	 
+	 <input type="radio" name="fylo" value="Α" checked > Ανδρας <br>
+	 <input type="radio" name="fylo" value="Γ" > Γυναίκα <br>
+	 <br><br>	 
+	 
+	 <input type="radio" name="eggamos" value="Ε"> Εγγαμος/η <br>
+	 <input type="radio" name="eggamos" value="Α" checked> Αγαμος/η  <br>
+	 <input type="radio" name="eggamos" value="Δ"> Διαζευγμένος/η <br>
+	 <input type="radio" name="eggamos" value="Χ"> Χήρος/α <br>
+	 <br><br>
+	 
+     Επιδοματα <br>
+	 <input type="checkbox" name="gamou" value="Γ" checked> Γαμου <small>&nbsp(10% επι του βασικου) </small><br>
+	 <input type="checkbox" name="ter" value="Θ" checked> Θερμανσης <small>&nbsp (200 ευρώ) </small><br>
+	 <input type="checkbox" name="enoik" value="Ε" checked> Ενοικίου <small>&nbsp (150 ευρώ) </small><br>
+	 
+	 <br><br>
+	 
+	 Ασφαλ.Ταμεια
+	 <select name="asfal" size="7">
+	  <option value="ika"> IKA  <small>(23%) </small>
+	  <option value="tsa" selected> ΤΣΑ <small> (15%) </small>
+	  <option value="nat"> NAT  <small>(5%) </small>
+	  <option value="tebe"> ΤΕΒΕ  <small>(33%) </small>
+	  <option value="oga"> ΟΓΑ  <small>(4%) </small>
+	  <option value="dim"> Δημοσίου  <small>(35%) </small>
+	  <option value="nom"> Ταμειο Νομικών (40%) </small>
+     </select>	 
+	 
+	 <br><br><br>
+
+     Βασικο ημερομίσθιο <input type="text" name="bas" value="20">
+     <br><br>
+     Ημέρες εργασίας <input type="text" name="meres">
+	 <br><br>
+	 
+	 Σχόλια<br>
+	 <textarea name="sxolia" rows="3" cols="30">
+	
+	 </textarea>
+	 <br><br>
+	 
+<!-- <input type="file" name="piese.jpg"> -->
+	 
+	 <input type="submit" value="Καταχώρηση"> &nbsp &nbsp
+	 <input type="reset" value="Ακυρωση">
+	 
+	</form>
+	</font>
+  </body>
+ </html>

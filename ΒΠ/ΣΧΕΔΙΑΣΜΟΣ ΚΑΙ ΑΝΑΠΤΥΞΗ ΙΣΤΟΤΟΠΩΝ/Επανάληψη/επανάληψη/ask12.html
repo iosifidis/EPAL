@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+ <title> φορμες </title>
+</head>
+
+<body bgcolor="lightgreen" text="black">
+
+<font size="4">
+
+<center><h1>Φόρμα εισαγωγης δεδομένων</h1></center><br><br>
+
+<form action="eisagogi.php" method="get"> 
+
+Ονοματεπωνυμο 
+<input type="text" name="onoma" size="35" maxlength="35">
+<br><br>
+
+Διευθυνση 
+<input type="text" name="dief" size="30" maxlength="30">
+<br><br>
+
+ΑΦΜ 
+<input type="password" name="afm" size="9" maxlength="9">
+<br><br>
+
+Φυλο<br>
+Αρρεν <input type="radio" name="fylo" value="Α"> <br>
+Θηλυ <input type="radio" name="fylo" value="Θ" checked>
+<br><br>
+
+Οικογενειακη κατασταση<br>
+<select name="katastasi" size="1">
+  <option value="Π" checked> Παντρεμένος
+  <option value="Δ"> Διαζευγμένος
+  <option value="Χ"> Χήρος
+  <option value="Α"> Αγαμος
+</select>
+<br><br>
+
+Σχόλια<br>
+<textarea name="sxolia" rows="4" cols="30" wrap="hard">
+Σχόλια:
+</textarea> <br><br><br>
+
+
+<input type="submit" value="Καταχώρηση δεδομένων"> <br><br>
+
+<input type="reset" value="Εκκαθάριση δεδομένων"> <br><br>
+
+</form>
+
+</font>
+
+</body>
+</html>
