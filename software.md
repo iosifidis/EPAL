@@ -26,6 +26,7 @@
 Το πρόγραμμα αυτό μπορείτε να το χρησιμοποιήσετε πριν κάνετε format τον υπολογιστή σας. Θα πρέπει να δείτε το υλικό του υπολογιστή σας και να αναζητήσετε τους drivers από το Internet. Όταν τους αποθηκεύσετε σε ένα USB τότε προχωράτε σε format του υπολογιστή σας.
 
 [Λήψη](https://www.cpuid.com/softwares/cpu-z.html)
+Εάν δεν θέλετε να το εγκαταστήσετε και προτιμάτε την portable έκδοση, μπορείτε να το κατεβάσετε από την ιστοσελίδα [portableapps](https://portableapps.com/apps/utilities/cpu-z-portable).
 
 5. [XAMPP](https://www.apachefriends.org/index.html "XAMPP is the most popular PHP development environment"):
 Το XAMPP βοηθάει στην ανάπτυξη εφαρμογών, ιστοσελίδων κλπ χωρίς να χρειάζεται να πειράξετε το σύστημά σας.
