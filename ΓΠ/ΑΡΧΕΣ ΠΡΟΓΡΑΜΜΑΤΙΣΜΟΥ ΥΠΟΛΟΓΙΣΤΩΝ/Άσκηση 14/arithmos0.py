@@ -9,7 +9,7 @@ print ""
 #Εισαγωγή δεδομένων
 thetikoi=0
 arnitikoi=0
-control=1 #
+control=1
 
 while control!=0:
         number=input ("Δώσε αριθμό (αρνητικό, θετικό ή 0 για έξοδο): ")

@@ -20,7 +20,6 @@ while running:
     times=times+1
 else:
     print'Ο αριθμός ήταν ο ',number,' και το μαντέψατε μετά από ',times,' φορές.'
-    # Μπορείτε να προσθέσετε ότι άλλο θέλετε εδώ
 
 # Footer
 print ''
