@@ -13,7 +13,7 @@ plithos=0
 sum=0
 
 #Ερώτηση και υπολογισμοί
-to=raw_input ("Τύπος οχήματος: (Fortiga/Epivatika/Moto/TELOS) ")
+to=raw_input ("Τύπος οχήματος: (F για φορτηγά / E για επιβατικά / M για μοτοσυκλέτες / TELOS για τέλος) ")
 while to!="TELOS":
 	melos=raw_input ("Μέλος; (Ν/Ο) ")
 	if melos == "N" :
@@ -47,7 +47,7 @@ while to!="TELOS":
 
 	plithos=fortiga+epivatika+moto
 	sum=sf+se+sm
-	to=raw_input ("Τύπος οχήματος: (Fortiga/Epivatika/Moto/TELOS) ")
+	to=raw_input ("Τύπος οχήματος: (F για φορτηγά / E για επιβατικά / M για μοτοσυκλέτες / TELOS για τέλος) ")
 
 # Εκτυπώσεις
 print "Φορτηγά: ",fortiga," Είσπραξη: ",sf,"Ευρώ"
