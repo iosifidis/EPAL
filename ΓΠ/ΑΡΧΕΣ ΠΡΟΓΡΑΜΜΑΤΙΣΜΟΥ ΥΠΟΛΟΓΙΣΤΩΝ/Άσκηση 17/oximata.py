@@ -13,7 +13,9 @@ plithos=0
 sum=0
 
 #Ερώτηση και υπολογισμοί
-to=raw_input ("Τύπος οχήματος: (F για φορτηγά / E για επιβατικά / M για μοτοσυκλέτες / TELOS για τέλος) ")
+print ''
+to=raw_input ("F για φορτηγά\nE για επιβατικά\nM για μοτοσυκλέτες\nTELOS για τέλος\nΔώσε Τύπο οχήματος: ")
+print ''
 while to!="TELOS":
 	melos=raw_input ("Μέλος; (Ν/Ο) ")
 	if melos == "N" :
@@ -47,15 +49,23 @@ while to!="TELOS":
 
 	plithos=fortiga+epivatika+moto
 	sum=sf+se+sm
-	to=raw_input ("Τύπος οχήματος: (F για φορτηγά / E για επιβατικά / M για μοτοσυκλέτες / TELOS για τέλος) ")
+	print ''
+	to=raw_input ("F για φορτηγά\nE για επιβατικά\nM για μοτοσυκλέτες\nTELOS για τέλος\nΔώσε Τύπο οχήματος:")
 
 # Εκτυπώσεις
+print ''
 print "Φορτηγά: ",fortiga," Είσπραξη: ",sf,"Ευρώ"
+print ''
 print "Επιβατικά: ",epivatika," Είσπραξη: ",se,"Ευρώ"
+print ''
 print "Μοτοσυκλέτες: ",moto," Είσπραξη: ",sm,"Ευρώ"
+print ''
 print "Πλήθος οχημάτων: ",plithos
+print ''
 print "Σύνολο εισπράξεων: ",sum
+print ''
 print "Σύνολο μελών: ",meli
+print ''
 print "Σύνολο μή μελών: ",mmeli
 
 # Footer
