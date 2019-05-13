@@ -6,7 +6,7 @@
 
   <div class="form-group">
     <label for="content">Content</label>
-    <textarea class="form-control" iname="content"></textarea>
+    <textarea class="form-control" name="content"></textarea>
   </div>
 <div class="form-group">
   <input type="submit" name="contact-submit" class="btn btn-primary" value="Αποστολή">
