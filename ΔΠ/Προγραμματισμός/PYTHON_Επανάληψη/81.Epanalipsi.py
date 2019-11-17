@@ -20,7 +20,7 @@ print 'Ο',atoma,'ος να βγει από το ασανσέρ.'
 
 # Footer
 print ''
-print 'Εν κουλί αυτό;'
+print 'Πω πω μια στροφάρα!!! Έλα γιώργη...'
 print 'Ευχαριστούμε για την προτίμησή σας.'
 print 'E-mail: iefstathios@gmail.com'
 print 'Copyleft 2019, Efstathios Iosifidis'
