@@ -14,13 +14,16 @@ print ""
 
 # Επεξεργασία
 if temaxia>=1 and temaxia<50:
-    timi=timi50*kerdos*fpa
+    ar_timi=timi50 * temaxia
 elif temaxia<=100:
-    timi=timi100*kerdos*fpa
+    ar_timi=timi100 * temaxia
 elif temaxia<=200:
-    timi=timi200*kerdos*fpa
-else:
-    timi=timi200k*kerdos*fpa
+    ar_timi=timi200 * temaxia
+elif temaxia>200:
+    ar_timi=timi200k * temaxia
+
+timi_pro_fpa = ar_timi + ar_timi * kerdos
+timi = timi_pro_fpa + timi_pro_fpa * fpa
 
 # Εμφάνιση αποτελεσμάτων
 print "Η τελική τιμή του προϊόντος ανά τεμάχιο για τον καταναλωτή είναι ",timi,"€"

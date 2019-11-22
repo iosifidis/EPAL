@@ -15,10 +15,11 @@ sms_ola=int(input("Δώσε SMS του πελάτη: "))
 print ""
 
 # Επεξεργασία
-timi=omilia*lepto*fpa+sms_ola*sms*fpa+pagio*fpa
+timi=omilia*lepto+sms_ola*sms+pagio
+teliki_timi=timi+timi*fpa
 
 # Εμφάνιση αποτελεσμάτων και ερώτημα
-print "Ο πελάτης με κωδικό",kodikos,"πρέπει να πληρώσει",round(timi,2),"€"
+print "Ο πελάτης με κωδικό",kodikos,"πρέπει να πληρώσει",timi,"€"
 
 # Footer
 print ''

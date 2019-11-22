@@ -12,7 +12,8 @@ epivates=int(input("Εισάγετε αριθμό συμμετεχόντων μ�
 print ""
 
 # Επεξεργασία
-cost=bus*bus_ticket+epivates*passenger_ticket
+passengers=epivates-bus
+cost=bus*bus_ticket+passengers*passenger_ticket
 
 # Εμφάνιση αποτελεσμάτων και ερώτημα
 print "Το πληρωτέο ποσό είναι",cost,"€"

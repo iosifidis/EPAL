@@ -17,11 +17,11 @@ posostob=(b*100.0)/psifoi
 posostoc=(c*100.0)/psifoi
 
 # Εμφάνιση αποτελεσμάτων και ερώτημα
-print "Ο πρώτος έλαβε",round(posostoa,2),"%"
+print "Ο πρώτος έλαβε",posostoa,"%"
 print ''
-print "Ο δεύτερος έλαβε",round(posostob,2),"%"
+print "Ο δεύτερος έλαβε",posostob,"%"
 print ''
-print "Ο τρίτος έλαβε",round(posostoc,2),"%"
+print "Ο τρίτος έλαβε",posostoc,"%"
 
 # Footer
 print ''

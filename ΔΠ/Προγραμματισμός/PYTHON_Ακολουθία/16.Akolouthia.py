@@ -21,7 +21,7 @@ psifoid=int(input("Εισάγετε ψήφους που έλαβε ο μαθητ
 print ""
 
 # Επεξεργασία
-psifoi=psifoia+psifoib+psifoic+psifoid
+psifoi=float(psifoia+psifoib+psifoic+psifoid)
 posostoa=(psifoia*100)/psifoi
 posostob=(psifoib*100)/psifoi
 posostoc=(psifoic*100)/psifoi

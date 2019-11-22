@@ -10,7 +10,7 @@ kodikos=raw_input("Δώσε τον κωδικό του προϊόντος: ")
 print ""
 posoagoras=float(input("Δώσε ποσό αγοράς σε €: "))
 print ""
-pososto=int(input("Δώσε ποσοστό έκπτωσης σε %: "))
+pososto=float(input("Δώσε ποσοστό έκπτωσης σε %: "))
 print ""
 
 # Επεξεργασία
@@ -23,7 +23,7 @@ telikiaksia=aksiametaekptosi+aksiafpa
 print "*****ΑΠΟΔΕΙΞΗ ΛΙΑΝΙΚΗΣ ΠΩΛΗΣΗΣ*****"
 print "*ΟΝΟΜΑΤΕΠΩΝΥΜΟ ΠΕΛΑΤΗ: ",onoma
 print "*ΚΩΔΙΚΟΣ ΠΡΟΙΟΝΤΟΣ: ",kodikos
-print "*ΠΟΣΟΣΤΟ ΕΚΠΤΩΣΗΣ: ",pososto
+print "*ΠΟΣΟΣΤΟ ΕΚΠΤΩΣΗΣ: ",int(pososto),"%"
 print "*ΑΞΙΑ ΠΡΟΙΟΝΤΟΣ: ",posoagoras
 print "*ΑΞΙΑ ΕΚΠΤΩΣΗΣ: ",ekptosi
 print "*ΦΠΑ 23%:",aksiafpa

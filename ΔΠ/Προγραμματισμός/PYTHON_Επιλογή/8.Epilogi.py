@@ -14,18 +14,20 @@ kivika=int(input("Δώσε κυβικά: "))
 print ""
 
 # Επεξεργασία
-if oxima=="Δ" or oxima=="δ" or oxima=="D" or oxima=="d" and kivika<=500:
-    pliromi=50
-elif oxima=="Δ" or oxima=="δ" or oxima=="D" or oxima=="d" and kivika>500:
-    pliromi=100
-elif oxima=="Α" or oxima=="α" or oxima=="A" or oxima=="a" and kivika<=1358:
-    pliromi=100
-elif oxima=="Α" or oxima=="α" or oxima=="A" or oxima=="a"  and kivika<=1750:
-    pliromi=150
-elif oxima=="Α" or oxima=="α" or oxima=="A" or oxima=="a"  and kivika<=2000:
-    pliromi=200
-elif oxima=="Α" or oxima=="α" or oxima=="A" or oxima=="a"  and kivika>2000:
-    pliromi=300
+if oxima=="Δ" or oxima=="δ" or oxima=="D" or oxima=="d"
+	if kivika<=500:
+	    pliromi=50
+	else:
+	    pliromi=100
+else:
+	if kivika<=1358:
+	    pliromi=100
+	elif kivika<=1750:
+	    pliromi=150
+	elif kivika<=2000:
+	    pliromi=200
+	elif kivika>2000:
+	    pliromi=300
 
 
 # Εμφάνιση αποτελεσμάτων
