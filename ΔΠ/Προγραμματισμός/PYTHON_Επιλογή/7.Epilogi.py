@@ -14,14 +14,16 @@ print ""
 
 
 # Επεξεργασία δεδομένων
+poliseis= temaxia*konsola
+
 if temaxia<=20:
-    promitheia=temaxia*konsola*t20
+    promitheia= poliseis * t20
 elif temaxia<=50:
-    promitheia=temaxia*konsola*t50
+    promitheia= poliseis * t50
 elif temaxia<=100:
-    promitheia=temaxia*konsola*t100
+    promitheia= poliseis * t100
 elif temaxia>100:
-    promitheia=temaxia*konsola*t101
+    promitheia= poliseis * t101
 
 
 # Εμφάνιση αποτελεσμάτων
