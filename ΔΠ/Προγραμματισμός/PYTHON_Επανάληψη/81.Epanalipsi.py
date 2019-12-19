@@ -9,15 +9,16 @@ varos=0 # Μεταβλητή ελέγχου (αθροιστής)
 print ''
 
 #Έλεγχος-Επεξεργασία
-while varos<=maxvaros: 
-  weight=float(input('Δώσε βάρος ατόμου που θα εισέλθει στον ανελκηστήρα:'))
+weight=float(input('Δώσε βάρος ατόμου που θα εισέλθει στον ανελκηστήρα:'))
+while varos-weight<maxvaros: 
   atoma=atoma+1 # Προθήκη ενός ατόμου
   varos=varos+weight # Προσθήκη βαρών
+  weight=float(input('Δώσε βάρος επόμενου ατόμου που θα εισέλθει στον ανελκηστήρα:'))
+  if varos+weight>350:
+	print "Δε χωράει άλλος"
 
 # Εμφάνιση
-print 'Ο τελευταίος που τα κατάφερε να μπει είναι ο:',atoma-1,'ος'
-print''
-print 'Ο',atoma,'ος να βγει από το ασανσέρ.'
+print 'Χώρεσε',atoma,'και το συνολικό βάρος τους είναι',varos
 
 
 # Footer

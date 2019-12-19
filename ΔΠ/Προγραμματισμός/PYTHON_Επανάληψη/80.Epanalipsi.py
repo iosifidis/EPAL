@@ -6,17 +6,14 @@
 total=0 # Αθροιστής
 
 # Εισαγωγή δεδομένων-Έλεγχος-Επεξεργασία
-while total<500: 
-    psonia=float(input("Δώσε κόστος προϊόντος:"))
-    total=total+psonia
-    print ''
+psonia=float(input("Δώσε κόστος προϊόντος:"))
+while total+psonia<500: # Εδώ θέλουμε να μπούμε στην επανάληψη.
+	total=total+psonia
+	psonia=float(input("Δώσε κόστος επόμενου προϊόντος:"))
+print ''
 
 # Εμφάνιση
-if total>500:
-   total=total-psonia
-   print 'Άσε πίσω το τελευταίο προϊόν. Ξόδεωες ακριβώς',total,'Ευρώ. Σου περισέψανε',500-total,"Ευρώ"
-else:
-    print "Ξόδεψες ακριβώς",total,"Ευρώ"
+print "ΤΕΛΟΣ ΑΓΟΡΩΝ"
 
 
 # Footer
